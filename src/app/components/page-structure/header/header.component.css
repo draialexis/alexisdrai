@@ -6,5 +6,7 @@ header
 }
 img
 {
-  float: left;
+  width: 40%;
+  border-radius: 12%;
+  margin-right: 20px;
 }

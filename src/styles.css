@@ -1,108 +1,72 @@
-body
-{
+body {
   background-color: #fff5e6;
+  margin-bottom: 20vh;
 }
-section
-{
-  padding: 15px;
-  width: 30vw;
+
+section {
+  margin: 0.5em 3em;
 }
-img
-{
-  width: 120px;
-  height: 160px;
-  border-radius: 12%;
-  margin-right: 20px;
-}
-h2
-{
+
+h2 {
   font-family: 'Lato', sans-serif;
 }
-p
-{
+
+p {
   font-family: 'Asap', sans-serif;
 }
-.date
-{
+
+#main {
+  float: right;
+}
+
+.small-print {
+  font-size: 0.8em;
+}
+
+.date {
   color: #555;
   font-style: italic;
 }
-#main-wrapper
-{
-  height: 80vh;
-  margin: 0 40vh 20vh 40vh;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  flex: 1;
-}
-#section-wrapper
-{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  text-align: justify;
-  flex: 1;
-  margin: 20px;
-}
-.link
-{
+
+.link {
   box-shadow: 0 3px 0 #008080;
   position: relative;
   text-decoration: none;
   color: #000;
 }
-.link:hover
-{
+
+.link:hover {
   color: #000;
   text-decoration: none;
   background-color: #eee4d5;
 }
-.link:active
-{
+
+.link:active {
   box-shadow: none;
   top: 5px;
 }
-.link:visited
-{
+
+.link:visited {
   color: #000;
 }
-@media screen and (max-width: 1024px)
-{
-  footer
-  {
+
+@media screen and (max-width: 1024px) {
+  footer {
     display: none;
   }
-  #sidebar
-  {
-    display: none;
-  }
-  #main-wrapper
-  {
-    margin: auto;
-  }
-  #section-wrapper
-  {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-  }
-  section
-  {
+
+  section {
     padding: 10px;
     width: auto;
   }
 }
-@media screen and (max-height: 900px)
-{
-  footer
-  {
+
+@media screen and (max-height: 900px) {
+  footer {
     display: none;
   }
-  #main-wrapper
-  {
-    height: 100vh;
+
+  body {
+    margin: 0;
   }
 }
