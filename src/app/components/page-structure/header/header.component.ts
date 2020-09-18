@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,8 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  title = 'Alexis DRAI';
+  blurb = ', polyglotte studieux et méthodique, ancien de la restauration, j\'aime la logique et\n' +
+    'les systèmes complexes et élégants.';
+  position = 'Développeur Java junior';
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
