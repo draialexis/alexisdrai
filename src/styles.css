@@ -1,1 +1,108 @@
-/* You can add global styles to this file, and also import other style files */
+body
+{
+  background-color: #fff5e6;
+}
+section
+{
+  padding: 15px;
+  width: 30vw;
+}
+img
+{
+  width: 120px;
+  height: 160px;
+  border-radius: 12%;
+  margin-right: 20px;
+}
+h2
+{
+  font-family: 'Lato', sans-serif;
+}
+p
+{
+  font-family: 'Asap', sans-serif;
+}
+.date
+{
+  color: #555;
+  font-style: italic;
+}
+#main-wrapper
+{
+  height: 80vh;
+  margin: 0 40vh 20vh 40vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex: 1;
+}
+#section-wrapper
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: justify;
+  flex: 1;
+  margin: 20px;
+}
+.link
+{
+  box-shadow: 0 3px 0 #008080;
+  position: relative;
+  text-decoration: none;
+  color: #000;
+}
+.link:hover
+{
+  color: #000;
+  text-decoration: none;
+  background-color: #eee4d5;
+}
+.link:active
+{
+  box-shadow: none;
+  top: 5px;
+}
+.link:visited
+{
+  color: #000;
+}
+@media screen and (max-width: 1024px)
+{
+  footer
+  {
+    display: none;
+  }
+  #sidebar
+  {
+    display: none;
+  }
+  #main-wrapper
+  {
+    margin: auto;
+  }
+  #section-wrapper
+  {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  section
+  {
+    padding: 10px;
+    width: auto;
+  }
+}
+@media screen and (max-height: 900px)
+{
+  footer
+  {
+    display: none;
+  }
+  #main-wrapper
+  {
+    height: 100vh;
+  }
+}
