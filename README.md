@@ -2,6 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
+## Potential issues when diving back in
+
+It may be beneficial to update angular and its dependencies by running
+`ng update @angular/cli @angular/core`
+
+A reinstall of fontawesome can be achieved with 
+`npm install @fortawesome/fontawesome-svg-core` and
+`npm install @fortawesome/free-solid-svg-icons`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
