@@ -1,0 +1,26 @@
+#footer {
+  background-color: #222;
+  color: #fff6e7;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 10vh;
+}
+
+.btn-footer {
+  background-color: #222;
+  width: 56px;
+  height: 56px;
+  border-style: none;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.btn-footer:hover {
+  background-color: #008080;
+}
+
+fa-icon {
+  color: #fff6e7;
+}
