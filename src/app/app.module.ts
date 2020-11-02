@@ -1,7 +1,7 @@
-import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-import {AppComponent} from './app.component';
+import {NgModule} from '@angular/core';
 import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
@@ -14,12 +14,6 @@ import {SmokefreeComponent} from './components/smokefree/smokefree.component';
 import {PageNotFoundComponent} from './components/page-not-found/page-not-found.component';
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    FontAwesomeModule,
-    NgbModule,
-    AppRoutingModule
-  ],
   declarations: [
     AppComponent,
     FooterComponent,
@@ -28,6 +22,12 @@ import {PageNotFoundComponent} from './components/page-not-found/page-not-found.
     MainComponent,
     SmokefreeComponent,
     PageNotFoundComponent
+  ],
+  imports: [
+    BrowserModule,
+    FontAwesomeModule,
+    NgbModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
