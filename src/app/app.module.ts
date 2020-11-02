@@ -6,6 +6,7 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {FooterComponent} from './components/page-structure/footer/footer.component';
 import {HeaderComponent} from './components/page-structure/header/header.component';
 import {MainComponent} from './components/main/main.component';
+import {SmokefreeComponent} from './components/smokefree/smokefree.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
@@ -13,7 +14,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    MainComponent
+    MainComponent,
+    SmokefreeComponent
   ],
   imports: [
     BrowserModule,
