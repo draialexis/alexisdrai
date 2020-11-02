@@ -2,10 +2,10 @@ import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-description',
-  templateUrl: './description.component.html',
-  styleUrls: ['./description.component.css']
+  templateUrl: './main.component.html',
+  styleUrls: ['./main.component.css']
 })
-export class DescriptionComponent implements OnInit {
+export class MainComponent implements OnInit {
 
   constructor() {
   }

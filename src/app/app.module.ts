@@ -5,7 +5,7 @@ import {AppComponent} from './app.component';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {FooterComponent} from './components/page-structure/footer/footer.component';
 import {HeaderComponent} from './components/page-structure/header/header.component';
-import {DescriptionComponent} from './components/description/description.component';
+import {MainComponent} from './components/main/main.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
@@ -13,7 +13,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    DescriptionComponent
+    MainComponent
   ],
   imports: [
     BrowserModule,
