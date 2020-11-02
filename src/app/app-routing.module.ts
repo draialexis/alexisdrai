@@ -1,9 +1,9 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
+
 import {MainComponent} from './components/main/main.component';
 import {SmokefreeComponent} from './components/smokefree/smokefree.component';
 import {PageNotFoundComponent} from './components/page-not-found/page-not-found.component';
-
 
 const appRoutes: Routes = [
   {path: 'main', component: MainComponent},
@@ -16,11 +16,13 @@ const appRoutes: Routes = [
   imports: [
     RouterModule.forRoot(
       appRoutes,
-      { enableTracing: true }
+      {enableTracing: true}
     )
   ],
   exports: [
     RouterModule
   ]
 })
-export class AppRoutingModule {}
+
+export class AppRoutingModule {
+}
