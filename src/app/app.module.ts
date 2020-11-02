@@ -12,6 +12,7 @@ import {NavbarComponent} from './components/page-structure/navbar/navbar.compone
 import {MainComponent} from './components/main/main.component';
 import {SmokefreeComponent} from './components/smokefree/smokefree.component';
 import {PageNotFoundComponent} from './components/page-not-found/page-not-found.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import {PageNotFoundComponent} from './components/page-not-found/page-not-found.
     BrowserModule,
     FontAwesomeModule,
     NgbModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [],
