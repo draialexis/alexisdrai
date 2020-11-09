@@ -19,6 +19,11 @@ p {
   float: right;
 }
 
+.milestone {
+  padding: 10px;
+  background-color: #ffe4d5;
+}
+
 .small-print {
   font-size: 0.8em;
 }
