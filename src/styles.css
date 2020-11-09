@@ -19,9 +19,16 @@ p {
   float: right;
 }
 
-.milestone {
-  padding: 10px;
+.milestone{
+  padding: 0.7em;
   background-color: #ffe4d5;
+  /*text-align: center !important;*/
+  margin: auto;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
 }
 
 .small-print {
