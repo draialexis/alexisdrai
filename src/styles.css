@@ -22,7 +22,7 @@ p {
 .milestone{
   padding: 0.7em;
   background-color: #ffe4d5;
-  /*text-align: center !important;*/
+  text-align: center !important;
   margin: auto;
 }
 
