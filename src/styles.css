@@ -21,9 +21,9 @@ p {
 
 .milestone{
   padding: 0.7em;
+  margin: 0.5em;
   background-color: #ffe4d5;
   text-align: center !important;
-  margin: auto;
 }
 
 .flex-center {
