@@ -1,17 +1,11 @@
-<!--<app-navbar></app-navbar>-->
-<div class="container">
-  <div class="row">
-    <div class="col-lg">
-      <app-header></app-header>
-    </div>
-    <div class="col-lg">
-      <article id="main">
-        <app-main></app-main>
-        <!--        <router-outlet></router-outlet>-->
-      </article>
-    </div>
-  </div>
-  <hr>
-  <app-smokefree></app-smokefree>
-</div>
+<app-disclaimer class="flex-center small-print"></app-disclaimer>
+<app-header></app-header>
+<main>
+  <article>
+    <app-skills></app-skills>
+    <app-work-experience></app-work-experience>
+    <app-education></app-education>
+  </article>
+</main>
+<app-contact class="flex-center"></app-contact>
 <app-footer></app-footer>

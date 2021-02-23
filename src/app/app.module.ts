@@ -9,10 +9,14 @@ import {FooterComponent} from './components/page-structure/footer/footer.compone
 import {HeaderComponent} from './components/page-structure/header/header.component';
 import {NavbarComponent} from './components/page-structure/navbar/navbar.component';
 
-import {MainComponent} from './components/main/main.component';
 import {SmokefreeComponent} from './components/smokefree/smokefree.component';
 import {PageNotFoundComponent} from './components/page-not-found/page-not-found.component';
 import {FormsModule} from '@angular/forms';
+import { WorkExperienceComponent } from './components/main/work-experience/work-experience.component';
+import { EducationComponent } from './components/main/education/education.component';
+import { SkillsComponent } from './components/main/skills/skills.component';
+import { DisclaimerComponent } from './components/disclaimer/disclaimer.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -20,9 +24,13 @@ import {FormsModule} from '@angular/forms';
     FooterComponent,
     HeaderComponent,
     NavbarComponent,
-    MainComponent,
     SmokefreeComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    WorkExperienceComponent,
+    EducationComponent,
+    SkillsComponent,
+    DisclaimerComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

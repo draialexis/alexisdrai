@@ -1,29 +1,18 @@
 body {
   background-color: #fff5e6;
-  margin-bottom: 20vh;
+  margin: 5vh 0 20vh 0;
 }
 
 section {
   margin: 0.5em 3em;
 }
 
-h2 {
+h2, header {
   font-family: 'Lato', sans-serif;
 }
 
 p {
   font-family: 'Asap', sans-serif;
-}
-
-#main {
-  float: right;
-}
-
-.milestone{
-  padding: 0.7em;
-  margin: 0.5em;
-  background-color: #ffe4d5;
-  text-align: center !important;
 }
 
 .flex-center {
@@ -61,6 +50,13 @@ p {
 .link:visited {
   color: #000;
 }
+
+/*.milestone{
+  padding: 0.7em;
+  margin: 0.5em;
+  background-color: #ffe4d5;
+  text-align: center !important;
+}*/
 
 @media screen and (max-width: 1024px) {
   footer {
